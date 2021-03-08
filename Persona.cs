@@ -1,6 +1,6 @@
 using System;
 
-namespace Personas
+namespace alumnos
 {
     class Persona
     {
