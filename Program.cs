@@ -6,7 +6,7 @@ namespace alumnos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
