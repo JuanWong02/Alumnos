@@ -35,6 +35,24 @@ namespace alumnos
        {
            materias.Remove(materia);
        }
+
+       //Mostrar informacion del grupo
+       public void MostrarInformacion(string nombre, int semestre)
+       {
+        Console.WriteLine("Grupo: " + this.nombre);
+        Console.WriteLine("Semestre: " + this.semestre);
+        Console.WriteLine("Alumnos: {0}", alumnos.Count);
+        Console.WriteLine("Materias: " + materias);
+        foreach (var materia in materias)
+        {
+            Console.WriteLine("Materia: " + materia.nombre);
+        }
+
+        
+            
+        
+       
+       }
     
       
     
